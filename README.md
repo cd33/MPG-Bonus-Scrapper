@@ -18,3 +18,48 @@ Deux choix s'offre à vous :
   - Editez le fichier ``bonus_all.py`` et indiquez votre email & mot de passe de connexion MPG + l'identifiant de la ligue.
   - (Facultatif) Si votre ligue est inférieur à 10 joueurs, vous devez changer les bonus en fonction dans le fichier ``bonus_all.py``.
   - Lancer la commande ``python3 bonus_all.py``
+
+Ci dessous, le nombre de bonus en fonction du nombre de participant dans votre ligue (4, 6, 8 ou 10) :
+
+    # ligue de 4
+    bonus = [
+        'Valise',
+        'Uber Eats'
+    ]
+
+    # ligue de 6
+    bonus = [
+        'Valise',
+        'Zahia',
+        'Suarez',
+        'Uber Eats',
+        'Uber Eats',
+        'Miroir'
+    ]
+    
+    # ligue de 8
+    bonus = [
+        'Valise',
+        'Zahia',
+        'Suarez',
+        'Uber Eats',
+        'Uber Eats',
+        'Uber Eats',
+        'Miroir',
+        'Chapron',
+        'Pat Evra'
+    ]
+
+    # ligue de 10
+    bonus = [
+        'Valise',
+        'Zahia',
+        'Suarez',
+        'Suarez',
+        'Uber Eats',
+        'Uber Eats',
+        'Uber Eats',
+        'Miroir',
+        'Chapron',
+        'Pat Evra'
+    ]
