@@ -69,7 +69,7 @@ def main():
                 break
         
         # Listage des bonus restants
-        if results :
+        if results or results==[] :
             data_intelligence.get_bonus_list_left(bonus, results)
             print('\nIl reste à '+str(team)+' :')
             print('1 '+'\n1 '.join(bonus))
